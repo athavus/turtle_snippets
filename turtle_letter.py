@@ -4,6 +4,12 @@ t = turtle.Turtle()
 t.width(3) 
 t.speed(3) 
 
+# Setar o inicio da caneta
+def set_start(x, y):
+    t.penup()
+    t.goto(x, y)
+    t.pendown()
+
 # Pular para a próxima linha
 def next_letter():
     t.color("white")
