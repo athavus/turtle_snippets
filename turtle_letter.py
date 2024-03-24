@@ -110,13 +110,34 @@ def draw_f():
     t.left(90)
     t.forward(75)
 
+# Letra G
 def draw_g():
-    t.circle(50, -180) 
-    t.forward(100)  
-    t.right(90)
-    t.circle(50, 180)  
+    t.color("white")
     t.left(90)
-    t.forward(50) 
+    t.forward(60)
+    t.left(90)
+    t.color("black")
+    t.forward(45)
+    t.left(180)
+    t.forward(90)
+    t.left(180)
+    t.forward(45)
+    t.right(90)
+    t.circle(75, -270) 
+
+# Letra H
+def draw_h():
+    t.left(90)
+    t.forward(150)
+    t.left(180)
+    t.forward(75)
+    t.left(90)
+    t.forward(75)
+    t.left(90)
+    t.forward(75)
+    t.left(180)
+    t.forward(150)
+    t.left(90)
 
 # Letra I
 def draw_i():
@@ -125,6 +146,38 @@ def draw_i():
     t.left(180)
     t.forward(145)
     t.left(90)
+
+# Letra J
+def draw_j():
+    t.color("white")
+    t.left(90)
+    t.forward(40)
+    t.right(180)
+    t.color("black")
+    t.circle(50, 180)
+    t.forward(110)
+    t.left(90)
+    t.forward(45)
+    t.left(180)
+    t.forward(90)
+    t.color("white")
+    t.right(90)
+    t.forward(150)
+    t.left(90)
+
+# Letra K
+def draw_k():
+    t.left(90)
+    t.forward(150)
+    t.left(180)
+    t.forward(75)
+    t.left(135)
+    t.forward(105)
+    t.left(180)
+    t.forward(105)
+    t.left(90)
+    t.forward(110)
+    t.left(45)
 
 # Letra L
 def draw_l():
