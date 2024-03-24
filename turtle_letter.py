@@ -188,6 +188,18 @@ def draw_l():
     t.left(90)
     t.forward(75)
 
+# Letra M
+def draw_m(): 
+    t.left(90)
+    t.forward(150)
+    t.right(135)
+    t.forward(105)
+    t.left(90)
+    t.forward(105)
+    t.right(135)
+    t.forward(150)
+    t.left(90)
+
 # Letra N
 def draw_n():
     t.left(90)
@@ -199,6 +211,15 @@ def draw_n():
     t.left(180)
     t.forward(145)
     t.left(90)
+
+# Letra O
+def draw_o():
+    t.color("white")
+    t.forward(37.5)
+    t.color("black")
+    t.circle(75, 360)
+    t.pen(pencolor=None)
+    t.forward(75)
 
 # Letra P
 def draw_p():
@@ -216,6 +237,62 @@ def draw_p():
     t.color("white")
     t.forward(75)
     t.color("black")
+
+# Letra Q
+def draw_q():
+    t.color("white")
+    t.forward(37.5)
+    t.color("black")
+    t.circle(70, 360)
+    t.circle(70, 45)
+    t.left(90)
+    t.forward(30)
+    t.left(180)
+    t.forward(60)
+    t.left(180)
+    t.forward(30)
+    t.right(90)
+    t.circle(70, 315)
+    t.pen(pencolor=None)
+    t.forward(75)
+
+# Letra R
+def draw_r():
+    t.left(90)
+    t.forward(150)
+    t.right(90)
+    t.forward(50)
+    t.pen(pencolor=None)
+    t.right(90)
+    t.forward(75)
+    t.left(90)
+    t.color("black")
+    t.circle(37.5, 180)
+    t.forward(50)
+    t.left(90)
+    t.forward(75)
+    t.left(90)
+    t.forward(50)
+    t.left(180)
+    t.forward(50)
+    t.left(138)
+    t.forward(115)
+    t.left(42)
+
+# Letra S
+def draw_s():
+    t.forward(25)
+    t.circle(40, 180)  
+    t.circle(-35, 180)
+    t.forward(30)
+    t.left(180)
+    t.forward(30)
+    t.circle(35, 180)
+    t.circle(-40, 180)
+    t.forward(25)
+    t.pen(pencolor=None)
+    t.left(180)
+    t.forward(75)
 
 # Letra T
 def draw_t():
@@ -236,6 +313,77 @@ def draw_t():
     t.pen(pencolor="white")
     t.left(90)
     t.forward(37.5)
+
+def draw_u():
+    t.pen(pencolor=None)
+    t.forward(37.5)
+    t.color("black")
+    t.circle(37.5, 90)
+    t.forward(110)
+    t.left(180)
+    t.forward(110)
+    t.circle(-37.5, 90)
+    t.circle(-37.5, 90)
+    t.forward(110)
+    t.left(180)
+    t.forward(110)
+    t.circle(37.5, 90)
+    t.pen(pencolor=None)
+    t.forward(37.5)
+
+# Letra V
+def draw_v():
+    t.pen(pencolor=None)
+    t.forward(37.5)
+    t.color("black")
+    t.left(75)
+    t.forward(150)
+    t.left(180)
+    t.forward(150)
+    t.right(150)
+    t.forward(150)
+    t.left(180)
+    t.forward(150)
+    t.left(75)
+    t.pen(pencolor=None)
+    t.forward(37.5)
+
+# Letra W
+def draw_w():
+    t.pen(pencolor=None)
+    t.forward(37.5)
+    t.color("black")
+    t.left(115)
+    t.forward(150)
+    t.left(180)
+    t.forward(150)
+    t.left(135)
+    t.forward(75)
+    t.right(140)
+    t.forward(75)
+    t.left(135)
+    t.forward(155)
+    t.left(180)
+    t.forward(155)
+    t.right(135)
+    t.forward(75)
+    t.left(160)
+    t.pen(pencolor=None)
+    t.forward(75)
+    t.left(90)
+    t.forward(80)
+
+# Letra X
+def draw_x():
+    t.left(60)
+    t.forward(170)
+    t.left(180)
+    t.forward(85)
+    t.right(120)
+    t.forward(85)
+    t.left(180)
+    t.forward(170)
+    t.left(60)
 
 # Letra Z
 def draw_z():
