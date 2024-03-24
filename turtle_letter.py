@@ -385,6 +385,24 @@ def draw_x():
     t.forward(170)
     t.left(60)
 
+# Letra Y
+def draw_y():
+    t.left(90)
+    t.forward(75)
+    t.left(45)
+    t.forward(90)
+    t.right(180)
+    t.forward(90)
+    t.left(90)
+    t.forward(90)
+    t.left(180)
+    t.forward(90)
+    t.left(45)
+    t.forward(75)
+    t.left(90)
+    t.pen(pencolor=None)
+    t.forward(65)
+
 # Letra Z
 def draw_z():
     t.forward(75)
