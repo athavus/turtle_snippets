@@ -4,6 +4,11 @@ t = turtle.Turtle()
 t.width(3) 
 t.speed(3) 
 
+#Setar o tamanho da tela
+def set_screen(x: float, y: float):
+    screen = turtle.Screen()
+    screen.setup(width=x, height=y)
+
 # Setar o inicio da caneta
 def set_start(x, y):
     t.penup()
@@ -30,6 +35,7 @@ def draw_a():
     t.right(75)
     t.forward(75)
     t.left(75)
+    next_letter()
 
 # Letra B
 def draw_b():
@@ -51,6 +57,7 @@ def draw_b():
     t.forward(75)
     t.left(180)
     t.forward(75)
+    next_letter()
 
 # Letra C
 def draw_c():
@@ -61,6 +68,7 @@ def draw_c():
     t.left(90)
     t.color("black")
     t.circle(75, 180)
+    next_letter()
 
 # Letra D
 def draw_d():
@@ -70,6 +78,7 @@ def draw_d():
     t.circle(75, -180)
     t.pen(pencolor=None)
     t.forward(75)
+    next_letter()
 
 # Letra E
 def draw_e():
@@ -89,6 +98,7 @@ def draw_e():
     t.forward(75)
     t.left(90)
     t.forward(75)
+    next_letter()
 
 # Letra F
 def draw_f():
@@ -109,6 +119,7 @@ def draw_f():
     t.forward(75)
     t.left(90)
     t.forward(75)
+    next_letter()
 
 # Letra G
 def draw_g():
@@ -123,7 +134,8 @@ def draw_g():
     t.left(180)
     t.forward(45)
     t.right(90)
-    t.circle(75, -270) 
+    t.circle(75, -270)
+    next_letter()
 
 # Letra H
 def draw_h():
@@ -138,6 +150,7 @@ def draw_h():
     t.left(180)
     t.forward(150)
     t.left(90)
+    next_letter()
 
 # Letra I
 def draw_i():
@@ -146,6 +159,7 @@ def draw_i():
     t.left(180)
     t.forward(145)
     t.left(90)
+    next_letter()
 
 # Letra J
 def draw_j():
@@ -164,6 +178,7 @@ def draw_j():
     t.right(90)
     t.forward(150)
     t.left(90)
+    next_letter()
 
 # Letra K
 def draw_k():
@@ -178,6 +193,7 @@ def draw_k():
     t.left(90)
     t.forward(110)
     t.left(45)
+    next_letter()
 
 # Letra L
 def draw_l():
@@ -187,6 +203,7 @@ def draw_l():
     t.forward(150)
     t.left(90)
     t.forward(75)
+    next_letter()
 
 # Letra M
 def draw_m(): 
@@ -199,6 +216,7 @@ def draw_m():
     t.right(135)
     t.forward(150)
     t.left(90)
+    next_letter()
 
 # Letra N
 def draw_n():
@@ -211,6 +229,7 @@ def draw_n():
     t.left(180)
     t.forward(145)
     t.left(90)
+    next_letter()
 
 # Letra O
 def draw_o():
@@ -220,6 +239,7 @@ def draw_o():
     t.circle(75, 360)
     t.pen(pencolor=None)
     t.forward(75)
+    next_letter()
 
 # Letra P
 def draw_p():
@@ -237,6 +257,7 @@ def draw_p():
     t.color("white")
     t.forward(75)
     t.color("black")
+    next_letter()
 
 # Letra Q
 def draw_q():
@@ -255,6 +276,7 @@ def draw_q():
     t.circle(70, 315)
     t.pen(pencolor=None)
     t.forward(75)
+    next_letter()
 
 # Letra R
 def draw_r():
@@ -278,6 +300,7 @@ def draw_r():
     t.left(138)
     t.forward(115)
     t.left(42)
+    next_letter()
 
 # Letra S
 def draw_s():
@@ -293,6 +316,7 @@ def draw_s():
     t.pen(pencolor=None)
     t.left(180)
     t.forward(75)
+    next_letter()
 
 # Letra T
 def draw_t():
@@ -313,6 +337,7 @@ def draw_t():
     t.pen(pencolor="white")
     t.left(90)
     t.forward(37.5)
+    next_letter()
 
 def draw_u():
     t.pen(pencolor=None)
@@ -330,6 +355,7 @@ def draw_u():
     t.circle(37.5, 90)
     t.pen(pencolor=None)
     t.forward(37.5)
+    next_letter()
 
 # Letra V
 def draw_v():
@@ -347,6 +373,7 @@ def draw_v():
     t.left(75)
     t.pen(pencolor=None)
     t.forward(37.5)
+    next_letter()
 
 # Letra W
 def draw_w():
@@ -372,6 +399,7 @@ def draw_w():
     t.forward(75)
     t.left(90)
     t.forward(80)
+    next_letter()
 
 # Letra X
 def draw_x():
@@ -384,6 +412,7 @@ def draw_x():
     t.left(180)
     t.forward(170)
     t.left(60)
+    next_letter()
 
 # Letra Y
 def draw_y():
@@ -402,6 +431,7 @@ def draw_y():
     t.left(90)
     t.pen(pencolor=None)
     t.forward(65)
+    next_letter()
 
 # Letra Z
 def draw_z():
@@ -418,3 +448,4 @@ def draw_z():
     t.forward(165)
     t.left(117)
     t.forward(75)
+    next_letter()
