@@ -1,2 +1,3 @@
 # turtle_snippets
- Alguns snippets para facilitar a produção de desenhos com a biblioteca turtle
+ Biblioteca feita em Python para poder desenhar com mais facilidade algumas formas através da outra biblioteca turtle, que é nativa do Python
+ 
