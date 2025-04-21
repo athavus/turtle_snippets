@@ -18,7 +18,7 @@ def set_start(x, y):
 # Pular para a próxima linha
 def next_letter():
     t.color("white")
-    t.forward(30)
+    t.forward(60)
     t.color("black")
 
 # Letra A
@@ -124,8 +124,9 @@ def draw_f():
 # Letra G
 def draw_g():
     t.color("white")
+    t.forward(110)
     t.left(90)
-    t.forward(60)
+    t.forward(75)
     t.left(90)
     t.color("black")
     t.forward(45)
@@ -135,6 +136,10 @@ def draw_g():
     t.forward(45)
     t.right(90)
     t.circle(75, -270)
+    t.circle(75, 180)
+    t.forward(10)
+    t.color("white")
+    t.forward(60)
     next_letter()
 
 # Letra H
